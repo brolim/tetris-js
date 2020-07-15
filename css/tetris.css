@@ -9,3 +9,10 @@ body {
   height: 80vh;
   border: dashed 1px #AAA;
 }
+
+.board .block {
+  background: red;
+  padding: 0.2rem;
+  color: white;
+  display: inline-block;
+}
