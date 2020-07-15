@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+
+.board {
+  background: #DDD;
+  display: inline-block;
+  width: 50%;
+  height: 80vh;
+  border: dashed 1px #AAA;
+}
