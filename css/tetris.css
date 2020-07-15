@@ -4,15 +4,21 @@ body {
 
 .board {
   background: #DDD;
-  display: inline-block;
   width: 50%;
-  height: 80vh;
   border: dashed 1px #AAA;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.board .row {
+  border-top: solid 1px #EEE;
+  height: 2rem;
 }
 
 .board .block {
   background: red;
-  padding: 0.2rem;
-  color: white;
+  padding: 0 2rem;
   display: inline-block;
+  height: 100%
 }
